@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1c6c4491c2fb3c43bd71a0ce2289cae, type: 3}
+  m_Name: Wave
+  m_EditorClassIdentifier: 
+  spawnBoss: 1
+  waves:
+  - UseCustomPattern: 1
+    customPattern: {fileID: 11400000, guid: 9dc1b0382aaf2194ba7eb0a6ca2f95df, type: 2}
+    PadelLines: 1
+    MyEnum: 0
+    waveDelay: 1
+    subWave:
+    - enemyIndex: 1
+      interval: 0.5
+      GridPattern: {x: 0, y: 0, z: 0}
+  - UseCustomPattern: 1
+    customPattern: {fileID: 11400000, guid: 7c7a3a70673bf8a4991f29ca282cd7fd, type: 2}
+    PadelLines: 1
+    MyEnum: 0
+    waveDelay: 1.5
+    subWave:
+    - enemyIndex: 1
+      interval: 1
+      GridPattern: {x: 0, y: 0, z: 0}
+  - UseCustomPattern: 0
+    customPattern: {fileID: 11400000, guid: 9dc1b0382aaf2194ba7eb0a6ca2f95df, type: 2}
+    PadelLines: 0
+    MyEnum: 0
+    waveDelay: 1
+    subWave:
+    - enemyIndex: 1
+      interval: 0.5
+      GridPattern: {x: 4, y: 8, z: 1.5}
+  - UseCustomPattern: 1
+    customPattern: {fileID: 11400000, guid: 7c7a3a70673bf8a4991f29ca282cd7fd, type: 2}
+    PadelLines: 1
+    MyEnum: 0
+    waveDelay: 1.5
+    subWave:
+    - enemyIndex: 1
+      interval: 0.5
+      GridPattern: {x: 0, y: 0, z: 0}

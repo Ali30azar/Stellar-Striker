@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85eaffcafef62745b063d61d9365a9d, type: 3}
+  m_Name: Mypattern
+  m_EditorClassIdentifier: 
+  Pattern:
+  - position: {x: -5.530783, y: 4}
+    rotate: {x: -0, y: -0, z: 0.17611395, w: 0.9843698}
+  - position: {x: -3.5037153, y: 4}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: -1.34, y: 4}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 1.4386866, y: 4}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 3.579635, y: 4}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 5.492822, y: 4}
+    rotate: {x: -0, y: -0, z: -0.1782155, w: 0.9839915}
+  - position: {x: -4.36, y: 3}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: -2.43, y: 3}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: -0.02, y: 2.07}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 2.577489, y: 3}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 4.4223485, y: 3}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: -6.17, y: 2.2}
+    rotate: {x: -0, y: -0, z: 0.18839224, w: 0.98209393}
+  - position: {x: 5.87, y: 2.21}
+    rotate: {x: -0, y: -0, z: -0.1973948, w: 0.9803241}
+  - position: {x: -3.435387, y: 1.290127}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
+  - position: {x: 3.4429786, y: 1.3584552}
+    rotate: {x: 0, y: 0, z: 0, w: 1}
